@@ -15,5 +15,5 @@ dependencyManagement {
 	}
 }
 dependencies {
-	compile 'org.springframework:spring-context:4.3.2.RELEASE'
+	testCompile 'org.springframework:spring-context:4.3.2.RELEASE'
 }
