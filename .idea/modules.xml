@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaExample.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO.iml" group="JavaIO" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_main.iml" group="JavaIO" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_test.iml" group="JavaIO" />
+    </modules>
+  </component>
+</project>
