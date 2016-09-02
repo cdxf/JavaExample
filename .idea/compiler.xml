@@ -21,8 +21,8 @@
     <bytecodeTargetLevel>
       <module name="JavaExample_main" target="1.5" />
       <module name="JavaExample_test" target="1.5" />
-      <module name="JavaIO_main" target="1.5" />
-      <module name="JavaIO_test" target="1.5" />
+      <module name="JavaIO_main" target="1.8" />
+      <module name="JavaIO_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
