@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO.iml" group="JavaIO" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_main.iml" group="JavaIO" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO_test.iml" group="JavaIO" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringFramework_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringFramework_main.iml" group="SpringFramework" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringFramework_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringFramework_test.iml" group="SpringFramework" />
     </modules>
   </component>
 </project>
