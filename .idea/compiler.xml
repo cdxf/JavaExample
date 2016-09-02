@@ -19,6 +19,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JavaCollections_main" target="1.8" />
+      <module name="JavaCollections_test" target="1.8" />
       <module name="JavaExample_main" target="1.5" />
       <module name="JavaExample_test" target="1.5" />
       <module name="JavaIO_main" target="1.8" />
