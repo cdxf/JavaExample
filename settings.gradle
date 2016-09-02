@@ -2,4 +2,5 @@ rootProject.name = 'JavaExample'
 include 'JavaIO'
 include 'JavaIO'
 include 'JavaCollections'
+include 'Java'
 

@@ -19,10 +19,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Java_main" target="1.8" />
+      <module name="Java_test" target="1.8" />
       <module name="JavaCollections_main" target="1.8" />
       <module name="JavaCollections_test" target="1.8" />
-      <module name="JavaExample_main" target="1.5" />
-      <module name="JavaExample_test" target="1.5" />
+      <module name="JavaExample_main" target="1.8" />
+      <module name="JavaExample_test" target="1.8" />
       <module name="JavaIO_main" target="1.8" />
       <module name="JavaIO_test" target="1.8" />
       <module name="SpringFramework_main" target="1.8" />
