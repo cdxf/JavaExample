@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Java/Java.iml" filepath="$PROJECT_DIR$/.idea/modules/Java/Java.iml" group="Java" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaCollections/JavaCollections.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaCollections/JavaCollections.iml" group="JavaCollections" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaCollections_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaCollections_main.iml" group="JavaCollections" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaCollections_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaCollections_test.iml" group="JavaCollections" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaExample.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaExample_main.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaExample_main.iml" group="JavaExample" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaExample_test.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaExample_test.iml" group="JavaExample" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO.iml" filepath="$PROJECT_DIR$/.idea/modules/JavaIO/JavaIO.iml" group="JavaIO" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-859648422/JavaIO_main.iml" filepath="$PROJECT_DIR$/.idea/modules/-859648422/JavaIO_main.iml" group="JavaIO" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-859648422/JavaIO_test.iml" filepath="$PROJECT_DIR$/.idea/modules/-859648422/JavaIO_test.iml" group="JavaIO" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1898544692/Java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/1898544692/Java_main.iml" group="Java" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1898544692/Java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/1898544692/Java_test.iml" group="Java" />
     </modules>
   </component>
 </project>
