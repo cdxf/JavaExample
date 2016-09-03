@@ -21,6 +21,10 @@ buildscript {
     dependencies {
         testCompile group: 'junit', name: 'junit', version: '4.11'
         testCompile 'org.springframework:spring-context'
+        testCompile 'org.springframework:spring-orm'
+        testCompile 'org.springframework:spring-jdbc'
+        testCompile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.2.Final'
+        testCompile group: 'com.h2database', name: 'h2', version: '1.4.192'
         testCompile group: 'commons-logging', name: 'commons-logging', version: '1.2'
     }
 
