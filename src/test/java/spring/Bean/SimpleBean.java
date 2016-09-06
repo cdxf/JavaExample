@@ -3,7 +3,7 @@ package spring.Bean;
 /**
  * Created by Snoob on 9/2/2016.
  */
-public class SimpleBean {
+public class SimpleBean implements IBean {
     public String getMessage() {
         return message;
     }

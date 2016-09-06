@@ -1,5 +1,8 @@
 package spring;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import spring.Bean.ConsumerBean;
+import spring.Bean.IBean;
 import spring.Bean.SimpleBean;
 import org.junit.Assert;
 import org.junit.Before;
@@ -19,9 +22,22 @@ public class BeanExample {
 
     @Test
     public void SimpleBeanTest() {
-        SimpleBean bean = (SimpleBean) ctx.getBean("simpleBean");
+        IBean bean = (IBean) ctx.getBean("simpleBean");
         bean.setMessage("HelloWorld");
         Assert.assertEquals("HelloWorld",bean.getMessage());
+    }
+    @Test
+    public void AnnotationBeanTest() {
+        IBean bean = (IBean) ctx.getBean("customBean");
+        IBean bean2 = (IBean) ctx.getBean("customBean");
+        Assert.assertEquals("AnnotationBean",bean.getMessage());
+        Assert.assertNotSame(bean,bean2);
+
+    }
+    @Test
+    public void AutoWiredTest(){
+        ConsumerBean bean = ctx.getBean(ConsumerBean.class);
+        System.out.println(bean.getMessage());
     }
     @Test
     public void BeanSingletonTest(){

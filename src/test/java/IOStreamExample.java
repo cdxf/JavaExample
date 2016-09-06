@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -84,5 +85,16 @@ public class IOStreamExample {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
+    }
+    @Test
+    public void SumTest() throws FileNotFoundException {
+        Scanner scanner = new Scanner(new FileInputStream("number.txt"));
+        scanner.delimiter();
+        BigInteger sum =  BigInteger.ZERO;
+        while(scanner.hasNext()){
+            BigInteger next = scanner.nextBigInteger();
+            sum = sum.add(next);
+        }
+        System.out.println(sum);
     }
 }
